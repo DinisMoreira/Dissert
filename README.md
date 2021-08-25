@@ -2,15 +2,15 @@
 
 ## How to run
 
-Create an environment with the python package and environment management system "Conda"
+* Create an environment with the python package and environment management system "Conda"
 `conda create --name <Environment Name>`
 
-Activate the Conda environment:
+* Activate the Conda environment:
 `conda activate <Environment Name>`
 
 
 
-To customize the running environment configure lines 102-130 of the "parking_env.py" file according to your preferences:
+* To customize the running environment configure lines 102-130 of the "parking_env.py" file according to your preferences:
             `"simulation_frequency": 15,`<br/>`
             "policy_frequency": 5,`<br/>`
             "duration": 300,`<br/>`
@@ -41,11 +41,12 @@ To customize the running environment configure lines 102-130 of the "parking_env
             "goalSpotNumber": 7,`<br/>`
             "initialPositionNumber": 6`
             
-To use a trained agent in the simulation run the "useTrainedParking.py" file:
+* To use a trained agent in the simulation run the "useTrainedParking.py" file:
 `python useTrainedParking`
 
-To train a new agent run the "trainParking.py" file:
+* To train a new agent run the "trainParking.py" file:
 `python trainParking`
+
 
 
 
