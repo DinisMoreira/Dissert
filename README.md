@@ -94,34 +94,34 @@ zipp                      3.4.0                    pypi_0    pypi`<br/>`
 zlib                      1.2.11               h7b6447c_3  `
 
 To customize the running environment configure lines 102-130 of the "parking_env.py" file according to your preferences:
-            `"simulation_frequency": 15,
-            "policy_frequency": 5,
-            "duration": 300,
-            "screen_width": 1920 * 2,
-            "screen_height": 1080 * 2,
-            "centering_position": [0.5, 0.5],
-            "scaling": 10 * 2*2,
-            "controlled_vehicles": 1,
-            "collision_reward": -0.1,
-            "layoutType": 0,
-            "gridSizeX": 6,
-            "gridSizeY": 2,
-            "gridSpotWidth": 4,
-            "gridSpotLength": 8,
-            "corridorWidth": 9,
-            "orientationMode": 7,
-            "trackRear": 1,
-            "randomInitialState": 0,
-            "initialPosition": [[20, 0],[20, 1],
-            "initialHeading": 0,
-            "startingPhase": 2,
-            "endingPhase": 3,
-            "obstacles": 1,
-            "otherVehicles": 1,
-            "generateNewPaths": 0,
-            "pathsFileName": "paths_6x2",
-            "randomPath": 0,
-            "goalSpotNumber": 7,
+            `"simulation_frequency": 15,`<br/>`
+            "policy_frequency": 5,`<br/>`
+            "duration": 300,`<br/>`
+            "screen_width": 1920 * 2,`<br/>`
+            "screen_height": 1080 * 2,`<br/>`
+            "centering_position": [0.5, 0.5],`<br/>`
+            "scaling": 10 * 2*2,`<br/>`
+            "controlled_vehicles": 1,`<br/>`
+            "collision_reward": -0.1,`<br/>`
+            "layoutType": 0,`<br/>`
+            "gridSizeX": 6,`<br/>`
+            "gridSizeY": 2,`<br/>`
+            "gridSpotWidth": 4,`<br/>`
+            "gridSpotLength": 8,`<br/>`
+            "corridorWidth": 9,`<br/>`
+            "orientationMode": 7,`<br/>`
+            "trackRear": 1,`<br/>`
+            "randomInitialState": 0,`<br/>`
+            "initialPosition": [[20, 0],[20, 1],`<br/>`
+            "initialHeading": 0,`<br/>`
+            "startingPhase": 2,`<br/>`
+            "endingPhase": 3,`<br/>`
+            "obstacles": 1,`<br/>`
+            "otherVehicles": 1,`<br/>`
+            "generateNewPaths": 0,`<br/>`
+            "pathsFileName": "paths_6x2",`<br/>`
+            "randomPath": 0,`<br/>`
+            "goalSpotNumber": 7,`<br/>`
             "initialPositionNumber": 6`
             
 To use a trained agent in the simulation run the "useTrainedParking.py" file:
