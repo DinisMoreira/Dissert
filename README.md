@@ -9,8 +9,8 @@ Activate the Conda environment:
 `conda activate <Environment Name>`
 
 Make sure the following packages are installed in the conda environment
-`# Name                    Version                   Build  Channel
-absl-py                   0.11.0                   pypi_0    pypi
+`# Name                    Version                   Build  Channel`<\br>
+`absl-py                   0.11.0                   pypi_0    pypi
 astor                     0.8.1                    pypi_0    pypi
 atari-py                  0.2.6                    pypi_0    pypi
 backcall                  0.2.0                    pypi_0    pypi
