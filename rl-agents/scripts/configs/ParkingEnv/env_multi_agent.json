@@ -1,0 +1,21 @@
+{
+    "id": "parking-ActionRepeat-v0",
+    "import_module": "highway_env",
+    "show_trajectories": true,
+    "controlled_vehicles": 2,
+    "action": {
+        "type": "MultiAgentAction",
+        "action_config": {
+            "type": "ContinuousAction"
+        }
+    },
+    "observation": {
+        "type": "MultiAgentObservation",
+        "observation_config": {
+            "type": "KinematicsGoal",
+            "features": ["presence", "x", "y", "vx", "vy", "cos_h", "sin_h", "current_acceleration", "front_wheels_heading", "absolute_velocity", "path_dist", "cos_path_ang_diff", "sin_path_ang_diff", "path_long_dist", "next_path_dist", "cos_next_path_ang_diff", "sin_next_path_ang_diff", "next_path_long_dist", "next_next_path_dist", "cos_next_next_path_ang_diff", "sin_next_next_path_ang_diff", "next_next_path_long_dist", "next_next_next_path_dist", "cos_next_next_next_path_ang_diff", "sin_next_next_next_path_ang_diff", "next_next_next_path_long_dist"],
+            "scales": [100, 100, 5, 5, 1, 1, 5, 1, 40, 50, 1, 1, 25, 50, 1, 1, 25, 50, 1, 1, 25, 50, 1, 1, 25],
+            "normalize": false
+        }
+    }
+}
