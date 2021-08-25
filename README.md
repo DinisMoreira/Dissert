@@ -1,4 +1,4 @@
-# Deep Reinforcement Learning forAutomated Parking
+# Deep Reinforcement Learning for Automated Parking
 
 ## How to run
 
