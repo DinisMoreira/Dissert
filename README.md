@@ -50,7 +50,7 @@
 
 
 
-Note: Make sure the following packages are installed in the conda environment
+Note: Make sure the following package dependencies are installed in the conda environment:<br/>
 `# Name                    Version                   Build  Channel`<br/>
 `absl-py                   0.11.0                   pypi_0    pypi`<br/>`
 astor                     0.8.1                    pypi_0    pypi`<br/>`
